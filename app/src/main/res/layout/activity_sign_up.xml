@@ -1,0 +1,118 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#8AAED9"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:fontFamily="serif-monospace"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:inputType="text"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:inputType="text"
+        android:fontFamily="serif-monospace"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pincode"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pincode"
+        android:inputType="number"
+        android:fontFamily="serif-monospace"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobil No"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/mob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile No"
+        android:inputType="text"
+        android:fontFamily="serif-monospace"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:fontFamily="serif-monospace"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:fontFamily="serif-monospace"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password again"
+        android:inputType="textPassword"
+        android:fontFamily="serif-monospace"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="#DCAF30"
+        android:layout_marginTop="40dp"
+        android:textColor="#000"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Login"
+        android:background="#fff"
+        android:layout_marginTop="40dp"
+        android:textColor="#000"/>
+</LinearLayout>
